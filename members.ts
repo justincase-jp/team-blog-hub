@@ -14,4 +14,18 @@ export const members: Member[] = [
     twitterUsername: "kondei_dev",
     githubUsername: "kondei",
   },
+  {
+    id: "hiroga",
+    name: "Hiroaki Ogasawara",
+    role: "Software Engineer",
+    bio: "ICU → IBM Japan → justInCase(Technologies)",
+    avatarSrc: "https://pbs.twimg.com/profile_images/1402945704176209924/TbTuPO1D_400x400.jpg",
+    sources: [
+      "https://qiita.com/hiroga/feed.atom",
+      "https://zenn.dev/hiroga/feed",
+      "https://hiroga.hatenablog.com/rss",
+    ],
+    twitterUsername: "xhiroga",
+    githubUsername: "xhiroga",
+  },
 ];
