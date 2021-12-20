@@ -2,7 +2,7 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
-    id: "kondei",
+    id: "kondeiaaa",
     name: "kondei",
     role: "web frontend engineer",
     bio: "大阪大学 基礎工学部 情報科学科 → dwango → justInCaseTechnologies",
