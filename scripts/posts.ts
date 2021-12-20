@@ -1,8 +1,7 @@
 import fs from "fs-extra";
 import Parser from "rss-parser";
-import { members } from "../../members";
-import { PostItem, Member } from "../types";
-export default {};
+import { members } from "../members";
+import { PostItem, Member } from "../src/types";
 
 type FeedItem = {
   title: string;
@@ -71,7 +70,7 @@ async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
   return postItems;
 }
 
-(async function () {
+async function run () {
   for (const member of members) {
     const items = await getMemberFeedItems(member);
     if (items) allPostItems = [...allPostItems, ...items];
@@ -79,4 +78,6 @@ async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
   allPostItems.sort((a, b) => b.dateMiliSeconds - a.dateMiliSeconds);
   fs.ensureDirSync(".contents");
   fs.writeJsonSync(".contents/posts.json", allPostItems);
-})();
+}
+
+run();
