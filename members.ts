@@ -22,7 +22,7 @@ export const members: Member[] = [
     avatarSrc: "https://pbs.twimg.com/profile_images/1402945704176209924/TbTuPO1D_400x400.jpg",
     sources: [
       "https://qiita.com/hiroga/feed.atom",
-      "https://zenn.dev/hiroga/feed",
+      "https://zenn.dev/hiroga/feed?all=1",
       "https://hiroga.hatenablog.com/rss",
     ],
     twitterUsername: "xhiroga",
