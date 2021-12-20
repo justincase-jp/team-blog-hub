@@ -19,7 +19,7 @@ export const members: Member[] = [
     name: "Hiroaki Ogasawara",
     role: "Software Engineer",
     bio: "ICU → IBM Japan → justInCase(Technologies)",
-    avatarSrc: "https://pbs.twimg.com/profile_images/1402945704176209924/TbTuPO1D_400x400.jpg",
+    avatarSrc: "https://github.com/xhiroga.png",
     sources: [
       "https://qiita.com/hiroga/feed.atom",
       "https://zenn.dev/hiroga/feed?all=1",
