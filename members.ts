@@ -28,4 +28,20 @@ export const members: Member[] = [
     twitterUsername: "xhiroga",
     githubUsername: "xhiroga",
   },
+  {
+    id: "takkyun",
+    name: "takkyun",
+    role: "Software Engineer",
+    bio: "NZ 🇳🇿 在住 / 2017年より justInCase 参画",
+    avatarSrc: "/avatars/takkyun.png",
+    sources: [
+      "https://qiita.com/takkyun/feed.atom",
+      "https://zenn.dev/takkyun/feed?all=1",
+      "https://serennz.sakura.ne.jp/sb/sb.cgi?feed=rss&cid=1",
+      "https://serennz.sakura.ne.jp/sb/sb.cgi?feed=rss&cid=2",
+      "https://note.com/takkyun/rss",
+    ],
+    twitterUsername: "takkyun",
+    githubUsername: "takkyun",
+  },
 ];
