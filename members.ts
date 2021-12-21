@@ -44,4 +44,15 @@ export const members: Member[] = [
     twitterUsername: "takkyun",
     githubUsername: "takkyun",
   },
+  {
+    id: "jict",
+    name: "justInCase Technologies",
+    bio: "justInCaseTechnologiesは、保険を変える保険テック会社です",
+    avatarSrc: "https://github.com/justincase-jp.png",
+    sources: [
+      "https://jict.hatenablog.com/rss",
+    ],
+    twitterUsername: "justInCaseHoken",
+    githubUsername: "justincase-jp",
+  },
 ];
