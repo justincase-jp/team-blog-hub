@@ -2,6 +2,17 @@ import { Member } from "@src/types";
 
 export const members: Member[] = [
   {
+    id: "jict",
+    name: "justInCase Technologies",
+    bio: "justInCaseTechnologiesは、保険を変える保険テック会社です",
+    avatarSrc: "https://github.com/justincase-jp.png",
+    sources: [
+      "https://jict.hatenablog.com/rss",
+    ],
+    twitterUsername: "justInCaseHoken",
+    githubUsername: "justincase-jp",
+  },
+  {
     id: "kondei",
     name: "kondei",
     role: "web frontend engineer",

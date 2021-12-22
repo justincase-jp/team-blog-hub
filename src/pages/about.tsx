@@ -12,21 +12,10 @@ const Page: NextPage = () => {
           <h1 className="about__title">About</h1>
           <div className="about__body">
             <p>
-              このサイトはチームのためのブログスターター
-              <a href="https://github.com/catnose99/team-blog-hub">
-                Team Blog Hub
-              </a>
-              のデモです。ブログのRSSのURLを登録することで、チームメンバーの投稿を一覧にまとめて表示します。
+              このサイトは、保険を変える保険テック会社 justInCaseTechnologies のメンバーのテックブログなどを集約したページです。
             </p>
             <p>
-              Medium、note、Zenn、Qiita、はてなブログなど、RSSフィードを取得できるサイトであれば、メンバーは好きな場所に投稿できます。
-            </p>
-            <p>
-              詳しくは
-              <a href="https://zenn.dev/catnose99/articles/cb72a73368a547756862">
-                チーム個々人のテックブログをRSSで集約するサイトをNext.jsで作った
-              </a>
-              をご覧ください。
+              新たな保険業界を、一緒に作っていくメンバーを<a href="https://justincase.jp/careers">絶賛募集中</a>です。
             </p>
           </div>
           <div className="about__actions">
