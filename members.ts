@@ -55,4 +55,17 @@ export const members: Member[] = [
     twitterUsername: "takkyun",
     githubUsername: "takkyun",
   },
+  {
+    id: "diostray",
+    name: "diostray",
+    role: "Software Engineer",
+    bio: "大阪大学 工学部 応用理工学科 -> 某中小SI企業 -> justInCase Technologies",
+    avatarSrc: "https://github.com/laplace1984.png",
+    sources: [
+      "https://qiita.com/diostray/feed.atom",
+      "https://zenn.dev/diostray/feed?include_scraps=1&all=1",
+    ],
+    twitterUsername: "diostray",
+    githubUsername: "laplace1984",
+  },
 ];
