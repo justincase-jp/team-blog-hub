@@ -68,4 +68,15 @@ export const members: Member[] = [
     twitterUsername: "diostray",
     githubUsername: "laplace1984",
   },
+  {
+    id: "wrongwrong",
+    name: "wrongwrong",
+    role: "Software Engineer",
+    bio: "豊橋技術科学大学 → MicroAd -> justInCase Technologies",
+    avatarSrc: "https://avatars.githubusercontent.com/u/24751011?v=4",
+    sources: [
+      "https://qiita.com/wrongwrong/feed.atom"
+    ],
+    githubUsername: "k163377"
+  },
 ];
