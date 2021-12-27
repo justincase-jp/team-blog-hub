@@ -8,6 +8,7 @@ export const members: Member[] = [
     avatarSrc: "https://github.com/justincase-jp.png",
     sources: [
       "https://jict.hatenablog.com/rss",
+      "https://qiita.com/organizations/justincase/activities.atom",
     ],
     twitterUsername: "justInCaseHoken",
     githubUsername: "justincase-jp",
