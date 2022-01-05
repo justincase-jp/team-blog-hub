@@ -69,4 +69,15 @@ export const members: Member[] = [
     twitterUsername: "diostray",
     githubUsername: "laplace1984",
   },
+  {
+    id: "thundermiracle",
+    name: "thundermiracle",
+    role: "Software Engineer",
+    bio: "BUAA → 某小企業 → justInCase Technologies",
+    avatarSrc: "https://github.com/thundermiracle.png",
+    sources: ["https://thundermiracle.com/blog/rss.xml"],
+    twitterUsername: "thundermiracle",
+    githubUsername: "thundermiracle",
+    websiteUrl: "https://thundermiracle.com",
+  },
 ];
