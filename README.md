@@ -1,3 +1,7 @@
+# Archived
+
+justInCase's team-blog-hub is now moved to private repository.
+
 # justInCaseTechnologies Team Blog Hub
 
 ![Demo](https://user-images.githubusercontent.com/34590683/96832331-8c289400-1479-11eb-9466-f24d30860a24.png)
